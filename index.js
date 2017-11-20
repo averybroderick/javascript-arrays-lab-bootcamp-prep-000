@@ -23,3 +23,9 @@ function appendKitten(name) {
   appendedKittens.push(name);
   return appendedKittens;
 }
+
+function prependKitten(name) {
+  var prependedKittens = [...kittens];
+  prependedKittens.unshift(name);
+  return prependedKittens;
+}
